@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem with processing, training, or the interface.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please use small synthetic examples. Do not attach private imagery, credentials, or sensitive coordinates. For security concerns, see SECURITY.md."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include expected behavior and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the command or GUI settings and a minimal example.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, package versions, CPU/GPU, and project version/commit.
+    validations:
+      required: true
+  - type: textarea
+    id: raster
+    attributes:
+      label: Raster details and logs
+      description: Dimensions, band count, CRS, pixel spacing, NoData, and relevant errors. Redact private paths and locations.

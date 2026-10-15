@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an improvement with a concrete use case.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Problem or use case
+      description: Who would use this, and what cannot be done today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the intended result and any alternatives considered.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How could we validate it?
+      description: Suggest test data, expected measurements, or acceptance criteria.

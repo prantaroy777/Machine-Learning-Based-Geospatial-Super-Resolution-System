@@ -1,0 +1,8 @@
+# GUI, raster processing and independent-reference evaluation; no PyTorch required.
+numpy>=1.26,<3
+scipy>=1.13,<2
+rasterio>=1.4.3,<2
+scikit-image>=0.24,<0.26
+streamlit>=1.55,<2
+matplotlib>=3.8,<4
+Pillow>=10.4,<13
